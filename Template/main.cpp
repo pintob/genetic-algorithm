@@ -1,6 +1,6 @@
-#include "Template/SortedArray.h"
-#include "include/Evolution.h"
-#include "include/Population.h"
+#include "SortedArray.h"
+#include "../include/Evolution.h"
+#include "../include/Population.h"
 
 #include <iostream>
 
