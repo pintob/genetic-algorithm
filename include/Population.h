@@ -33,12 +33,12 @@
  *     void evolve();
  *      -> apply evolution parameter on the current generation to try to improve individual
  *     const std::pair<T *, double> &operator[](int i);
- *      -> return the ith better individual (T*) and it score(double).
+ *      -> return the nth better individual (T*) and it score(double).
  *         the T* is read-only (if you change it your can have super funny feature)
  *     Population&operator++();
  *      -> basically call evolve() once
  *     Population&operator+=(int nbGen);
- *      -> basically call evolve() nbGenth
+ *      -> basically call evolve() nb times
  * }
  *
  */
